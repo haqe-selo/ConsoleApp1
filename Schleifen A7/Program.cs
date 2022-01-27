@@ -10,12 +10,13 @@ namespace Schleifen_A7
             Console.WriteLine("Bitte geben Sie ein Zahl ein");
             i = Convert.ToInt32(Console.ReadLine());
 
-            do
+            int sum = 0;
+            for(int a=0;a<=i;a++)
             {
-                Console.WriteLine(i--);
-                Console.WriteLine();
+                sum = sum+a ;
+               
             }
-            while (i >= 0);
+            Console.WriteLine(sum);
         }
     }
 }
